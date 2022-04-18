@@ -1,1 +1,440 @@
-<!DOCTYPE html><html lang="en"><head><meta charset="UTF-8"><meta http-equiv="X-UA-Compatible" content="IE=edge"><meta name="viewport" content="width=device-width,initial-scale=1"><link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin><link href="https://fonts.googleapis.com/css2?family=El+Messiri:wght@500&display=swap" rel="stylesheet"><link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin><link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap" rel="stylesheet"><link rel="stylesheet" href="https://unpkg.com/swiper@8/swiper-bundle.min.css"><link rel="stylesheet" href="./css/main.min.css"><script src="./js/main.js" defer="defer"></script><title>Document</title></head><body class="main__body"><div class="overlay"><!-- NAVBAR --><nav class="navbar container"><div class="logo"><a class="link" href="#"><picture><source srcset="./assets/images/logo.svg" type="image/webp"><img src="./assets/images/logo.svg" alt="logo"></picture></a></div><div class="menu"><ul class="menu__list"><li class="menu__list-item"><a class="link" href="#about">About</a></li><li class="menu__list-item"><a class="link" href="#projects">Projects</a></li><li class="menu__list-item"><a class="link" href="#technologies">Technologies</a></li><li class="menu__list-item"><a class="link" href="#footer">Contacts</a></li></ul></div><div class="burger"><div class="bar1"></div><div class="bar2"></div><div class="bar3"></div></div></nav><header><!-- HEADER --><div class="container"><section class="header"><div class="header__item"><h1 class="title element-animation">Денис Безденежных</h1><h2 class="subtitle element-animation2">Frontend developer</h2><div class="info"><div class="info__item">HTML CSS</div><div class="info__item">JS TS</div><div class="info__item">React</div><div class="info__item">NextJs</div><div class="info__item">Redux</div><div class="info__item">REST API</div><div class="info__item">GraphQL</div></div></div><div class="header__item canvas__item"><canvas class="header__item canvas__item" width="450" height="450" id="canv"></canvas></div></section></div></header><main><section id="about" class="section__about"><div class="container"><h4 class="section__title">About Me</h4><div class="about"><div class="about__summary element-animation"><p>Нахожусь в поиске позиции Junior frontend-разработчика или стажировки с уклоном на React + Redux стек, с возможностью дальнейшего трудоустройства.</p><p>В процессе работы способен быстро обучаться и имею огромное желание профессионального роста. Считаю важным работать в команде с интересными людьми и профессионалами своего дела, которые готовы делиться опытом.</p></div><div class="about__item element-animation2"><span class="about__item-num">Образование</span><ul class="about__item-text"><li>Пермский государственный национальный исследовательский университет</li><li>Юридический факультет (Социальная работа и конфликтология)</li><li>September 2014 — July 2018</li></ul></div><div class="about__item element-animation2"><span class="about__item-num">Путь к разработке</span><ul class="about__item-text"><li>Во время обучения в университете работал барменом, после окончания ВУЗа устроился в Телеком компанию в качестве специалиста по продажам (до апреля 2020г). Во времена разгара пандемии, занимался репетиторством. К началу 2021 года решил попробовать для себя новую сферу деятельности, так пришел к frontend-разработке.</li><li>Начинал с освоения HTML и CSS.</li><li>После начал погружаться в JS, применяя полученные знания на практике, попутно решая задачи на <a href="https://www.codewars.com/users/ZaHardRus">CodeWars.</a></li><li>Далее, освоив базу языка, мой выбор пал на React, с которым работаю настоящее время</li></ul></div><div class="about__item element-animation2"><span class="about__item-num">Hard skills:</span><ul class="about__item-text"><li>На хорошем уровне знаю нативный <span>JavaScript</span> и синтаксис ES6+.</li><li>Знаком с базовым <span>TypeScript</span>.</li><li class="about__item-list"><p><span>Верстка:</span> HTML5, CSS (SASS / SCSS)</p><p><span>Сборка проекта:</span> Gulp / Webpack</p><p><span>Логика:</span> React / NextJs (hooks)</p><p><span>State manger:</span> Redux / ReduxToolkit (thunk / saga)</p><p><span>Взаимодействие с сервером:</span> Rest API / GraphQL</p><p><span>UI kit:</span> MaterialUi</p><p><span>Работа с формами:</span> react-hook-forms + yup</p><br><p>На базовом уровне знаком с <span>Backend:</span> Express.js / Nest.js</p></li></ul></div></div></div></section><section id="projects" class="section_projects"><div class="container"><h4 class="section__title">Projects</h4><div class="projects"><div class="tabs"><div class="tabs__header"><div class="tabs__header-item link active" data-tab="1">«Journal»</div><div class="tabs__header-item link" data-tab="2">«Pizzas-Shop»</div><div class="tabs__header-item link" data-tab="3">«Chat»</div><div class="tabs__header-item link" data-tab="4">Некоторые другие</div></div><div class="tabs__content"><div class="tabs__content-item link active" data-tab="1"><ul class="accordion"><li class="accordion__item"><div class="accordion__item-trigger"><div class="accordion__item-trigger-icon"><picture><source srcset="./assets/images/arrow.svg" type="image/webp"><img width="30" src="./assets/images/arrow.svg" alt=""></picture></div><div class="accordion__item-trigger-text">Цель</div></div><div class="accordion__item-content"><div class="accordion__item-content-text">Создание full-stack приложения. На технологиях Next (redux-toolkit, MUI) и NestJs (PostgreSQL, TypeORM, JWT)</div></div></li><li class="accordion__item"><div class="accordion__item-trigger"><div class="accordion__item-trigger-icon"><picture><source srcset="./assets/images/arrow.svg" type="image/webp"><img width="30" src="./assets/images/arrow.svg" alt=""></picture></div><div class="accordion__item-trigger-text">Реализованный функционал</div></div><div class="accordion__item-content"><div class="accordion__item-content-text"><ol><li>Регистрация и авторизация пользователя (JWT + Passport)</li><li>Возможность писать посты и редактировать/удалять их в дальнейшем (подключен плагин editorJS для создания блочной модели поста и загрузки изображений)</li><li>Возможность оставлять/удалять комментарии под постами</li><li>Реализован поиск (по пользователям и заголовкам статей) и пагинация (на каждой странице с рендером списков)</li><li>Просмотр и редактирование профиля пользователя</li><li>Для хранения и обработки изображений используется Cloudinary</li><li>Возможность ставить like/dislike посту</li><li>Возможность подписки на пользователя (в разделе «Моя лента» отображаются только посты пользователей на которых есть подписка)</li></ol></div></div></li><li><div class="link-wrapper"><div class="link-btn"><a target="_blank" href="https://github.com/ZaHardRus/JOURNAL-FRONTEND-next-reduxTK-mui-RHForm-yup">Frontend-code</a></div><div class="link-btn"><a target="_blank" href="https://github.com/ZaHardRus/JOURNAL-BACKEND-nest-pg-typeorm">Backend-code</a></div></div></li><li><div class="link-btn"><a target="_blank" href="https://journalfront.herokuapp.com/">Preview</a></div></li></ul></div><div class="tabs__content-item link" data-tab="2"><ul class="accordion"><li class="accordion__item"><div class="accordion__item-trigger"><div class="accordion__item-trigger-icon"><picture><source srcset="./assets/images/arrow.svg" type="image/webp"><img width="30" src="./assets/images/arrow.svg" alt=""></picture></div><div class="accordion__item-trigger-text">Цель</div></div><div class="accordion__item-content"><div class="accordion__item-content-text">Разработка клиентской части SPA на React с использованием Redux и Redux-thunk. Серверная часть: json-server</div></div></li><li class="accordion__item"><div class="accordion__item-trigger"><div class="accordion__item-trigger-icon"><picture><source srcset="./assets/images/arrow.svg" type="image/webp"><img width="30" src="./assets/images/arrow.svg" alt=""></picture></div><div class="accordion__item-trigger-text">Реализованный функционал</div></div><div class="accordion__item-content"><div class="accordion__item-content-text"><ol><li>Добавление товаров в корзину.</li><li>Сортировка и фильтрация товаров</li><li>Возможность указать конфигурацию товара</li><li>Взаимодействие с корзиной</li></ol></div></div></li><li><div class="link-wrapper"><div class="link-btn"><a target="_blank" href="https://github.com/ZaHardRus/reactRedux-pizza">Frontend-code</a></div></div></li><li><div class="link-btn"><a target="_blank" href="https://zahard-pizzas.herokuapp.com/">Preview</a></div></li></ul></div><div class="tabs__content-item link" data-tab="3"><ul class="accordion"><li class="accordion__item"><div class="accordion__item-trigger"><div class="accordion__item-trigger-icon"><picture><source srcset="./assets/images/arrow.svg" type="image/webp"><img width="30" src="./assets/images/arrow.svg" alt=""></picture></div><div class="accordion__item-trigger-text">Цель</div></div><div class="accordion__item-content"><div class="accordion__item-content-text">Реализация простого чата на базе React, Express, Socket.io, с возможностью создавать отдельные (приватные) комнаты для общения</div></div></li><li><div class="link-wrapper"><div class="link-btn"><a target="_blank" href="https://github.com/ZaHardRus/zahard-chat">Frontend-code & Backend-code</a></div></div></li><li><div class="link-btn"><a target="_blank" href="https://zahard-chat.herokuapp.com/">Preview</a></div></li></ul></div><div class="tabs__content-item link" data-tab="4"><div class="link-wrapper"><a class="link-btn" target="_blank" href="https://zahard-sneakers.herokuapp.com">React-sneakers</a> <a class="link-btn" target="_blank" href="https://zahard-mern-todo.herokuapp.com">ToDo List</a></div></div></div></div></div></div></section><section id="discuss" class="section__discuss"><div class="container"><div class="circle"></div><h3 class="section__title element-animation2">Свяжитесь со мной, и я отвечу на Ваши вопросы в течении 24 часов</h3><div class="link-btn"><a target="_blank" href="https://t.me/zahardrus" class="element-animation">Связаться</a></div></div></section><section id="technologies" class="section_technologies"><div class="container"><h3 class="section__title">Technologies</h3><div class="technologies"><div class="swiper"><div class="swiper-wrapper"><div class="swiper-slide"><div class="card"><picture><source srcset="./assets/images/html5.svg" type="image/webp"><img width="150" height="150" src="./assets/images/html5.svg" alt=""></picture><h4>HTML5</h4></div></div><div class="swiper-slide"><div class="card"><picture><source srcset="./assets/images/css3.svg" type="image/webp"><img width="150" height="150" src="./assets/images/css3.svg" alt=""></picture><h4>CSS3</h4></div></div><div class="swiper-slide"><div class="card"><picture><source srcset="./assets/images/sass.svg" type="image/webp"><img width="150" height="150" src="./assets/images/sass.svg" alt=""></picture><h4>SASS/SCSS</h4></div></div><div class="swiper-slide"><div class="card"><picture><source srcset="./assets/images/gulp.svg" type="image/webp"><img width="150" height="150" src="./assets/images/gulp.svg" alt=""></picture><h4>Gulp</h4></div></div><div class="swiper-slide"><div class="card"><picture><source srcset="./assets/images/webpack.svg" type="image/webp"><img width="150" height="150" src="./assets/images/webpack.svg" alt=""></picture><h4>Webpack</h4></div></div><div class="swiper-slide"><div class="card"><picture><source srcset="./assets/images/react.svg" type="image/webp"><img width="150" height="150" src="./assets/images/react.svg" alt=""></picture><h4>React</h4></div></div><div class="swiper-slide"><div class="card"><picture><source srcset="./assets/images/redux.svg" type="image/webp"><img width="150" height="150" src="./assets/images/redux.svg" alt=""></picture><h4>Redux</h4></div></div><div class="swiper-slide"><div class="card"><picture><source srcset="./assets/images/nextjs.svg" type="image/webp"><img width="150" height="150" src="./assets/images/nextjs.svg" alt=""></picture><h4>Next.js</h4></div></div><div class="swiper-slide"><div class="card"><picture><source srcset="./assets/images/nodejs.svg" type="image/webp"><img width="150" height="150" src="./assets/images/nodejs.svg" alt=""></picture><h4>Node.js</h4></div></div><div class="swiper-slide"><div class="card"><picture><source srcset="./assets/images/graphql.svg" type="image/webp"><img width="150" height="150" src="./assets/images/graphql.svg" alt=""></picture><h4>GraphQL</h4></div></div></div></div></div><div class="btn-wrapper"><div class="circle-btn circle-btn-prev"><picture><source srcset="./assets/images/arrow-left.svg" type="image/webp"><img src="./assets/images/arrow-left.svg" alt=""></picture></div><div class="circle-btn circle-btn-next"><picture><source srcset="./assets/images/arrow-right.svg" type="image/webp"><img src="./assets/images/arrow-right.svg" alt=""></picture></div></div></div></section></main></div><footer id="footer"><div class="container"><div class="footer"><div class="footer__item"><div class="contacts"><h3>Контакты</h3><div class="contacts__wrapper"><div class="contacts__item"><a href="mailto:zahardrus@gmail.com"><picture><source srcset="./assets/images/email.svg" type="image/webp"><img width="50" height="50" src="./assets/images/email.svg" alt=""></picture></a><span>zahardrus@gmail.com</span></div><div class="contacts__item"><a href="tel:+79223207215"><picture><source srcset="./assets/images/tel.svg" type="image/webp"><img width="50" height="50" src="./assets/images/tel.svg" alt=""></picture></a><span>+7 922 320-72-15</span></div><div class="contacts__item"><a target="_blank" href="https://t.me/zahardrus"><picture><source srcset="./assets/images/telegram.svg" type="image/webp"><img width="50" height="50" src="./assets/images/telegram.svg" alt=""></picture></a><span>zahardrus</span></div><div class="contacts__item"><a target="_blank" href="https://vk.com/zahardrus"><picture><source srcset="./assets/images/vk.svg" type="image/webp"><img width="50" height="50" src="./assets/images/vk.svg" alt=""></picture></a><span>zahardrus</span></div><div class="contacts__item"><a target="_blank" href="https://github.com/ZaHardRus"><picture><source srcset="./assets/images/github.svg" type="image/webp"><img width="50" height="50" src="./assets/images/github.svg" alt=""></picture></a><span>ZaHardRus</span></div></div></div></div></div></div></footer><script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.10.3/gsap.min.js"></script><script src="https://unpkg.com/swiper@8/swiper-bundle.min.js"></script></body></html>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=El+Messiri:wght@500&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://unpkg.com/swiper@8/swiper-bundle.min.css">
+    <link rel="stylesheet" href="./css/main.min.css">
+    <script src="./js/main.js" defer="defer"></script>
+    <title>Document</title>
+</head>
+<body class="main__body">
+<div class="overlay">
+    <!-- NAVBAR -->
+    <nav class="navbar container">
+        <div class="logo">
+            <a class="link" href="#">
+                <picture><source srcset="./assets/images/logo.svg" type="image/webp"><img src="./assets/images/logo.svg" alt="logo"></picture>
+            </a>
+        </div>
+        <div class="menu">
+            <ul class="menu__list">
+                <li class="menu__list-item">
+                    <a class="link" href="#about">About</a>
+                </li>
+                <li class="menu__list-item">
+                    <a class="link" href="#projects">Projects</a>
+                </li>
+                <li class="menu__list-item">
+                    <a class="link" href="#technologies">Technologies</a>
+                </li>
+                <li class="menu__list-item">
+                    <a class="link" href="#footer">Contacts</a>
+                </li>
+            </ul>
+        </div>
+
+        <div class="burger">
+            <div class="bar1"></div>
+            <div class="bar2"></div>
+            <div class="bar3"></div>
+        </div>
+    </nav>
+    <header>
+        <!-- HEADER -->
+        <div class="container">
+            <section class="header">
+                <div class="header__item">
+                    <h1 class="title element-animation">Денис Безденежных</h1>
+                    <h2 class="subtitle element-animation2">Frontend developer</h2>
+                    <div class="info">
+                        <div class="info__item">HTML CSS</div>
+                        <div class="info__item">JS TS</div>
+                        <div class="info__item">React</div>
+                        <div class="info__item">NextJs</div>
+                        <div class="info__item">Redux</div>
+                        <div class="info__item">REST API</div>
+                        <div class="info__item">GraphQL</div>
+                    </div>
+                </div>
+                <div class="header__item canvas__item">
+                    <canvas class="header__item canvas__item" width="450" height="450" id="canv"></canvas>
+                </div>
+            </section>
+        </div>
+    </header>
+    <main>
+        <section id="about" class="section__about">
+            <div class="container">
+                <h4 class="section__title">About Me</h4>
+                <div class="about">
+                    <div class="about__summary element-animation">
+                        <p>
+                            Нахожусь в поиске позиции Junior frontend-разработчика или стажировки с уклоном на
+                            React + Redux стек, с возможностью дальнейшего трудоустройства.
+                        </p>
+                        <p>В процессе работы способен быстро обучаться и имею огромное желание
+                            профессионального роста. Считаю важным работать в команде с интересными
+                            людьми и профессионалами своего дела, которые готовы делиться опытом.</p>
+                    </div>
+                    <div class="about__item element-animation2">
+                        <span class="about__item-num">Образование</span>
+                        <ul class="about__item-text">
+                            <li>Пермский государственный национальный исследовательский университет</li>
+                            <li>Юридический факультет (Социальная работа и конфликтология)</li>
+                            <li>September 2014 — July 2018</li>
+                        </ul>
+                    </div>
+                    <div class="about__item element-animation2">
+                        <span class="about__item-num">Путь к разработке</span>
+                        <ul class="about__item-text">
+                            <li>Во время обучения в университете работал барменом, после окончания ВУЗа устроился в
+                                Телеком компанию в качестве специалиста по продажам (до апреля 2020г). Во времена
+                                разгара пандемии, занимался репетиторством. К началу 2021 года решил попробовать для
+                                себя новую сферу деятельности, так пришел к frontend-разработке.
+                            </li>
+                            <li>Начинал с освоения HTML и CSS.</li>
+                            <li>После начал погружаться в JS, применяя полученные знания на практике, попутно решая
+                                задачи на <a href="https://www.codewars.com/users/ZaHardRus">CodeWars.</a>
+                            </li>
+                            <li>Далее, освоив базу языка, мой выбор пал на React, с которым работаю настоящее время</li>
+                        </ul>
+                    </div>
+                    <div class="about__item element-animation2">
+                        <span class="about__item-num">Hard skills:</span>
+                        <ul class="about__item-text">
+                            <li>На хорошем уровне знаю нативный <span>JavaScript</span> и синтаксис ES6+.</li>
+                            <li>Знаком с базовым <span>TypeScript</span>.</li>
+                            <li class="about__item-list">
+                                <p><span>Верстка:</span> HTML5, CSS (SASS / SCSS)</p>
+                                <p><span>Сборка проекта:</span> Gulp / Webpack</p>
+                                <p><span>Логика:</span> React / NextJs (hooks)</p>
+                                <p><span>State manger:</span> Redux / ReduxToolkit (thunk / saga)</p>
+                                <p><span>Взаимодействие с сервером:</span> Rest API / GraphQL</p>
+                                <p><span>UI kit:</span> MaterialUi</p>
+                                <p><span>Работа с формами:</span> react-hook-forms + yup</p>
+                                <br>
+                                <p>На базовом уровне знаком с <span>Backend:</span> Express / Nest</p>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="projects" class="section_projects">
+            <div class="container">
+                <h4 class="section__title">Projects</h4>
+                <div class="projects">
+                    <div class="tabs">
+                        <div class="tabs__header">
+                            <div class="tabs__header-item link active" data-tab="1">«Journal»</div>
+                            <div class="tabs__header-item link" data-tab="2">«Pizzas-Shop»</div>
+                            <div class="tabs__header-item link" data-tab="3">«Chat»</div>
+                            <div class="tabs__header-item link" data-tab="4">Некоторые другие</div>
+                        </div>
+                        <div class="tabs__content">
+                            <div class="tabs__content-item link active" data-tab="1">
+                                <ul class="accordion">
+                                    <li class="accordion__item">
+                                        <div class="accordion__item-trigger">
+                                            <div class="accordion__item-trigger-icon">
+                                                <picture><source srcset="./assets/images/arrow.svg" type="image/webp"><img width="30" src="./assets/images/arrow.svg" alt=""></picture>
+                                            </div>
+                                            <div class="accordion__item-trigger-text">Цель</div>
+                                        </div>
+                                        <div class="accordion__item-content">
+                                            <div class="accordion__item-content-text">
+                                                Создание full-stack приложения. На технологиях Next (redux-toolkit, MUI)
+                                                и NestJs (PostgreSQL, TypeORM, JWT)
+                                            </div>
+                                        </div>
+                                    </li>
+                                    <li class="accordion__item">
+                                        <div class="accordion__item-trigger">
+                                            <div class="accordion__item-trigger-icon">
+                                                <picture><source srcset="./assets/images/arrow.svg" type="image/webp"><img width="30" src="./assets/images/arrow.svg" alt=""></picture>
+                                            </div>
+                                            <div class="accordion__item-trigger-text">Реализованный функционал</div>
+                                        </div>
+                                        <div class="accordion__item-content">
+                                            <div class="accordion__item-content-text">
+                                                <ol>
+                                                    <li>Регистрация и авторизация пользователя (JWT + Passport)</li>
+                                                    <li>Возможность писать посты и редактировать/удалять их в дальнейшем
+                                                        (подключен плагин editorJS для создания блочной модели поста и
+                                                        загрузки изображений)
+                                                    </li>
+                                                    <li>Возможность оставлять/удалять комментарии под постами</li>
+                                                    <li>Реализован поиск (по пользователям и заголовкам статей) и
+                                                        пагинация (на
+                                                        каждой странице с рендером списков)
+                                                    </li>
+                                                    <li>Просмотр и редактирование профиля пользователя</li>
+                                                    <li>Для хранения и обработки изображений используется Cloudinary
+                                                    </li>
+                                                    <li>Возможность ставить like/dislike посту</li>
+                                                    <li>Возможность подписки на пользователя (в разделе «Моя лента»
+                                                        отображаются только посты пользователей на которых есть
+                                                        подписка)
+                                                    </li>
+                                                </ol>
+                                            </div>
+                                        </div>
+                                    </li>
+                                    <li>
+                                        <div class="link-wrapper">
+                                            <div class="link-btn">
+                                                <a target="_blank" href="https://github.com/ZaHardRus/JOURNAL-FRONTEND-next-reduxTK-mui-RHForm-yup">Frontend-code</a>
+                                            </div>
+                                            <div class="link-btn">
+                                                <a target="_blank" href="https://github.com/ZaHardRus/JOURNAL-BACKEND-nest-pg-typeorm">Backend-code</a>
+                                            </div>
+                                        </div>
+                                    </li>
+                                    <li>
+                                        <div class="link-btn">
+                                            <a target="_blank" href="https://journalfront.herokuapp.com/">Preview</a>
+                                        </div>
+                                    </li>
+                                </ul>
+                            </div>
+                            <div class="tabs__content-item link" data-tab="2">
+                                <ul class="accordion">
+                                    <li class="accordion__item">
+                                        <div class="accordion__item-trigger">
+                                            <div class="accordion__item-trigger-icon">
+                                                <picture><source srcset="./assets/images/arrow.svg" type="image/webp"><img width="30" src="./assets/images/arrow.svg" alt=""></picture>
+                                            </div>
+                                            <div class="accordion__item-trigger-text">Цель</div>
+                                        </div>
+                                        <div class="accordion__item-content">
+                                            <div class="accordion__item-content-text">
+                                                Разработка клиентской части SPA на React с использованием Redux и
+                                                Redux-thunk. Серверная часть: json-server
+                                            </div>
+                                        </div>
+                                    </li>
+                                    <li class="accordion__item">
+                                        <div class="accordion__item-trigger">
+                                            <div class="accordion__item-trigger-icon">
+                                                <picture><source srcset="./assets/images/arrow.svg" type="image/webp"><img width="30" src="./assets/images/arrow.svg" alt=""></picture>
+                                            </div>
+                                            <div class="accordion__item-trigger-text">Реализованный функционал</div>
+                                        </div>
+                                        <div class="accordion__item-content">
+                                            <div class="accordion__item-content-text">
+                                                <ol>
+                                                    <li>Добавление товаров в корзину.</li>
+                                                    <li>Сортировка и фильтрация товаров</li>
+                                                    <li>Возможность указать конфигурацию товара</li>
+                                                    <li>Взаимодействие с корзиной</li>
+                                                </ol>
+                                            </div>
+                                        </div>
+                                    </li>
+                                    <li>
+                                        <div class="link-wrapper">
+                                            <div class="link-btn">
+                                                <a target="_blank" href="https://github.com/ZaHardRus/reactRedux-pizza">Frontend-code</a>
+                                            </div>
+                                        </div>
+                                    </li>
+                                    <li>
+                                        <div class="link-btn">
+                                            <a target="_blank" href="https://zahard-pizzas.herokuapp.com/">Preview</a>
+                                        </div>
+                                    </li>
+                                </ul>
+                            </div>
+                            <div class="tabs__content-item link" data-tab="3">
+                                <ul class="accordion">
+                                    <li class="accordion__item">
+                                        <div class="accordion__item-trigger">
+                                            <div class="accordion__item-trigger-icon">
+                                                <picture><source srcset="./assets/images/arrow.svg" type="image/webp"><img width="30" src="./assets/images/arrow.svg" alt=""></picture>
+                                            </div>
+                                            <div class="accordion__item-trigger-text">Цель</div>
+                                        </div>
+                                        <div class="accordion__item-content">
+                                            <div class="accordion__item-content-text">
+                                                Реализация простого чата на базе React, Express, Socket.io, с
+                                                возможностью создавать отдельные (приватные) комнаты для общения
+                                            </div>
+                                        </div>
+                                    </li>
+                                    <li>
+                                        <div class="link-wrapper">
+                                            <div class="link-btn">
+                                                <a target="_blank" href="https://github.com/ZaHardRus/zahard-chat">Frontend-code
+                                                    & Backend-code</a>
+                                            </div>
+                                        </div>
+                                    </li>
+                                    <li>
+                                        <div class="link-btn">
+                                            <a target="_blank" href="https://zahard-chat.herokuapp.com/">Preview</a>
+                                        </div>
+                                    </li>
+                                </ul>
+                            </div>
+                            <div class="tabs__content-item link" data-tab="4">
+                                <div class="link-wrapper">
+                                    <a class="link-btn" target="_blank" href="https://zahard-sneakers.herokuapp.com">React-sneakers</a>
+                                    <a class="link-btn" target="_blank" href="https://zahard-mern-todo.herokuapp.com">ToDo List</a>
+                                </div>
+                            </div>
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="discuss" class="section__discuss">
+            <div class="container">
+                <div class="circle"></div>
+                <h3 class="section__title element-animation2">Свяжитесь со мной, и я отвечу на Ваши вопросы в течении 24
+                    часов</h3>
+                <div class="link-btn">
+                    <a target="_blank" href="https://t.me/zahardrus" class="element-animation">Связаться</a>
+                </div>
+            </div>
+        </section>
+
+        <section id="technologies" class="section_technologies">
+            <div class="container">
+                <h3 class="section__title">Technologies</h3>
+                <div class="technologies">
+                    <div class="swiper">
+                        <div class="swiper-wrapper">
+                            <div class="swiper-slide">
+                                <div class="card">
+                                    <picture><source srcset="./assets/images/html5.svg" type="image/webp"><img width="150" height="150" src="./assets/images/html5.svg" alt=""></picture>
+                                    <h4>HTML5</h4>
+                                </div>
+                            </div>
+                            <div class="swiper-slide">
+                                <div class="card">
+                                    <picture><source srcset="./assets/images/css3.svg" type="image/webp"><img width="150" height="150" src="./assets/images/css3.svg" alt=""></picture>
+                                    <h4>CSS3</h4>
+                                </div>
+                            </div>
+                            <div class="swiper-slide">
+                                <div class="card">
+                                    <picture><source srcset="./assets/images/sass.svg" type="image/webp"><img width="150" height="150" src="./assets/images/sass.svg" alt=""></picture>
+                                    <h4>SASS/SCSS</h4>
+                                </div>
+                            </div>
+                            <div class="swiper-slide">
+                                <div class="card">
+                                    <picture><source srcset="./assets/images/gulp.svg" type="image/webp"><img width="150" height="150" src="./assets/images/gulp.svg" alt=""></picture>
+                                    <h4>Gulp</h4>
+                                </div>
+                            </div>
+                            <div class="swiper-slide">
+                                <div class="card">
+                                    <picture><source srcset="./assets/images/webpack.svg" type="image/webp"><img width="150" height="150" src="./assets/images/webpack.svg" alt=""></picture>
+                                    <h4>Webpack</h4>
+                                </div>
+                            </div>
+                            <div class="swiper-slide">
+                                <div class="card">
+                                    <picture><source srcset="./assets/images/react.svg" type="image/webp"><img width="150" height="150" src="./assets/images/react.svg" alt=""></picture>
+                                    <h4>React</h4>
+                                </div>
+                            </div>
+                            <div class="swiper-slide">
+                                <div class="card">
+                                    <picture><source srcset="./assets/images/redux.svg" type="image/webp"><img width="150" height="150" src="./assets/images/redux.svg" alt=""></picture>
+                                    <h4>Redux</h4>
+                                </div>
+                            </div>
+                            <div class="swiper-slide">
+                                <div class="card">
+                                    <picture><source srcset="./assets/images/nextjs.svg" type="image/webp"><img width="150" height="150" src="./assets/images/nextjs.svg" alt=""></picture>
+                                    <h4>Next.js</h4>
+                                </div>
+                            </div>
+                            <div class="swiper-slide">
+                                <div class="card">
+                                    <picture><source srcset="./assets/images/nodejs.svg" type="image/webp"><img width="150" height="150" src="./assets/images/nodejs.svg" alt=""></picture>
+                                    <h4>Node.js</h4>
+                                </div>
+                            </div>
+                            <div class="swiper-slide">
+                                <div class="card">
+                                    <picture><source srcset="./assets/images/graphql.svg" type="image/webp"><img width="150" height="150" src="./assets/images/graphql.svg" alt=""></picture>
+                                    <h4>GraphQL</h4>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="btn-wrapper">
+                    <div class="circle-btn circle-btn-prev">
+                        <picture><source srcset="./assets/images/arrow-left.svg" type="image/webp"><img src="./assets/images/arrow-left.svg" alt=""></picture>
+                    </div>
+                    <div class="circle-btn circle-btn-next">
+                        <picture><source srcset="./assets/images/arrow-right.svg" type="image/webp"><img src="./assets/images/arrow-right.svg" alt=""></picture>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+</div>
+<footer id="footer">
+    <div class="container">
+        <div class="footer">
+            <div class="footer__item">
+                <div class="contacts">
+                    <h3>Контакты</h3>
+                    <div class="contacts__wrapper">
+                        <div class="contacts__item">
+                            <a href="mailto:zahardrus@gmail.com">
+                                <picture><source srcset="./assets/images/email.svg" type="image/webp"><img width="50" height="50" src="./assets/images/email.svg" alt=""></picture>
+                            </a>
+                            <span>zahardrus@gmail.com</span>
+                        </div>
+                        <div class="contacts__item">
+                            <a href="tel:+79223207215">
+                                <picture><source srcset="./assets/images/tel.svg" type="image/webp"><img width="50" height="50" src="./assets/images/tel.svg" alt=""></picture>
+                            </a>
+                            <span>+7 922 320-72-15</span>
+                        </div>
+                        <div class="contacts__item">
+                            <a target="_blank" href="https://t.me/zahardrus">
+                                <picture><source srcset="./assets/images/telegram.svg" type="image/webp"><img width="50" height="50" src="./assets/images/telegram.svg" alt=""></picture>
+                            </a>
+                            <span>zahardrus</span>
+                        </div>
+                        <div class="contacts__item">
+                            <a target="_blank" href="https://vk.com/zahardrus">
+                                <picture><source srcset="./assets/images/vk.svg" type="image/webp"><img width="50" height="50" src="./assets/images/vk.svg" alt=""></picture>
+                            </a>
+                            <span>zahardrus</span>
+                        </div>
+                        <div class="contacts__item">
+                            <a target="_blank" href="https://github.com/ZaHardRus">
+                                <picture><source srcset="./assets/images/github.svg" type="image/webp"><img width="50" height="50" src="./assets/images/github.svg" alt=""></picture>
+                            </a>
+                            <span>ZaHardRus</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</footer>
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.10.3/gsap.min.js"></script>
+<script src="https://unpkg.com/swiper@8/swiper-bundle.min.js"></script>
+</body>
+</html>
